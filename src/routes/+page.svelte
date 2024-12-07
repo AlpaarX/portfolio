@@ -1,13 +1,4 @@
-<script>
-	// import { onMount } from 'svelte';
-	// onMount(() => {
-	// 	document.querySelectorAll('a').forEach((link) => {
-	// 		link.addEventListener('hover', () => {
-	// 			document.getElementById('audio').play();
-	// 		});
-	// 	});
-	// });
-</script>
+<svelte:head><title>Alpaar</title></svelte:head>
 
 <audio>
 	<source src="src\lib\audio\hover.mp3" type="audio/mp3" id="audio" />
@@ -58,10 +49,10 @@
 		.grid {
 			display: grid;
 			grid-template-columns: 1fr;
-			grid-template-rows: 1fr;
+			grid-template-rows: 0.5fr;
 		}
 		h1 {
-			font-size: 3rem;
+			font-size: 4rem;
 		}
 	}
 </style>
