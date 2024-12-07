@@ -30,7 +30,6 @@
 			font-family: 'Dela Gothic One', sans-serif;
 
 			color: black;
-
 			overflow: hidden;
 		}
 	}

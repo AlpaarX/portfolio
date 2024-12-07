@@ -1,8 +1,5 @@
 <svelte:head><title>Alpaar</title></svelte:head>
 
-<audio>
-	<source src="src\lib\audio\hover.mp3" type="audio/mp3" id="audio" />
-</audio>
 <div class="grid">
 	<div class="hero">
 		<h1>デジタル未来へ <br /> Alpaar</h1>
